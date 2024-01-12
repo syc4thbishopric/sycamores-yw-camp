@@ -35,7 +35,7 @@ const BannerCard = ({ ...card }: any) => {
           <div>
             <h3 className="text-base font-semibold leading-6 text-gray-900">{card.title}</h3>
             <div className="text-sm text-primary">{card.subtitle}</div>
-            <Linkify tagName="p" options={options} className="bg-white mt-2 text-sm text-gray-500 rounded-xl">{card.paragraph && <p>{card.paragraph}</p>}</Linkify>
+            <div className="bg-white mt-2 text-sm text-gray-500 rounded-xl">{card.paragraph && (<p>{card.paragraph}</p>)}</div>
           </div>
           {card.button.text && card.button.link.label?.text !== 'image-view' && (
             <div className="mt-5 sm:mt-0 sm:ml-6 sm:flex-shrink-0 sm:flex sm:items-center">

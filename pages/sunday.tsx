@@ -39,9 +39,9 @@ function Sunday({ schedules, roll }) {
   return (
     <>
       <Head>
-        <title>{config.wardName} - Sunday Meetings</title>
+        <title>{config.wardName} - Camp Schedule</title>
       </Head>
-      <PageHeader title="Sunday Meetings" subtitle="Below is a list of scheduled events this upcoming Sunday" />
+      <PageHeader title="Camp Schedule" subtitle="Below is a list of scheduled events for Young Women's Camp" />
       <Layout>
         <PrimaryButton type="link" className="absolute top-2 md:top-5" link={{ url: "/" }}>
           <Icon name="chevron-left" className="h-5 w-5" />

@@ -29,10 +29,7 @@ import PrimaryButton from "../components/elements/buttons/PrimaryButton"
 export const getServerSideProps = async ({ req, res }) => {
   setHttpHeaders(res)
   const [announcements, dataCards] = await Promise.all([fetch(getAllAnnouncements()), fetch(dataCardsRequest())])
-  // console.log('templeResult', await templeData)
-  // console.log('datacards', await dataCards.json())
   const myDataCards = (await dataCards.json()).sort((a, b) => a.order - b.order)
-  console.log('myDataCards', myDataCards)
   return {
     props: {
       announcements: await announcements.json(),
