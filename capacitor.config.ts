@@ -1,8 +1,8 @@
 import { CapacitorConfig } from '@capacitor/cli';
 
 const config: CapacitorConfig = {
-  appId: 'com.sycamoresstake.4thward',
-  appName: 'Sycamores 4th Ward App',
+  appId: 'com.sycamoresstake.yw-camp',
+  appName: 'Sycamores Stake Young Women Camp',
   webDir: 'out',
   server: {
     androidScheme: 'https'
