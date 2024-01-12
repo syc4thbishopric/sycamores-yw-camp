@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.calendly-popup {
+  max-height: 100vh !important;
+  max-width: 998px !important;
+}
+
+.is-scrollLocked {
+  overflow: hidden;
+}
+
+/* fix safari and mobile */
+body {
+  -webkit-overflow-scrolling: touch;
+}
+
+input::-webkit-date-and-time-value {
+  height: 1.5em;
+}
+
+/* cropper styles */
+.reactEasyCrop_Container {
+  border: 1px solid transparent;
+  border-radius: 10px;
+  box-shadow: none;
+}
+
+.reactEasyCrop_CropAreaGrid {
+  min-width: 100%;
+  min-height: 100%;
+}
+
+.reactEasyCrop_Image {
+  min-width: 100%;
+  min-height: 100%;
+  object-fit: cover;
+}
+
+.dots-in-between {
+  background-image: linear-gradient(to right, #000 10%, rgba(255, 255, 255, 0) 0%);
+  background-position: 0 14px;
+  background-size: 10px 1px;
+  background-repeat: repeat-x;
+}
