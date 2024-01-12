@@ -68,7 +68,7 @@ function Home({announcements, dataCards}) {
         //if your PWA exists in the array it is installed
         console.log(app.platform, app.url);
         if (
-          app.url === "https://4thward.sycamoresstake.com/manifest.json" || app.url === "http://192.168.1.65:3000/manifest.json"
+          app.url === "https://yw-camp.sycamoresstake.com/manifest.json" || app.url === "http://192.168.1.65:3000/manifest.json"
         ) {
           installed = true;
         }
