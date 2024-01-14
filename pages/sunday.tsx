@@ -39,9 +39,9 @@ function Sunday({ schedules, roll }) {
   return (
     <>
       <Head>
-        <title>{config.wardName} - Camp Schedule</title>
+        <title>{config.wardName} - Registration</title>
       </Head>
-      <PageHeader title="Camp Schedule" subtitle="Below is a list of scheduled events for Young Women's Camp" />
+      <PageHeader title="Registration Steps" subtitle="Please complete the steps below to register your YW for camp" />
       <Layout>
         <PrimaryButton type="link" className="absolute top-2 md:top-5" link={{ url: "/" }}>
           <Icon name="chevron-left" className="h-5 w-5" />

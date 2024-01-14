@@ -93,8 +93,8 @@ function Home({announcements, dataCards}) {
             <div className="text-gray-700">Thanks for installing our app</div>
           )}
       </div> */}
-      <div className="relative mb-7">
-          <SectionHeader title="Announcements" subtitle="Find out more details of some of the upcoming events and activities." className="pt-10"/>
+      <div className="relative mb-3">
+          <SectionHeader title="Announcements" subtitle="Stay up to date on upcoming YW camp events" className="pt-10"/>
       </div>
       {dataBannerCards.length > 0 && (
         <div className="lg:grid gap-x-4 lg:grid-cols-2 lg:grid-rows-[auto_1fr] lg:items-start">
@@ -245,7 +245,7 @@ function Home({announcements, dataCards}) {
       )}
       {dataImageCards.filter((card) => !card.hidden).length > 0 && (
         <>
-          <SectionHeader title="Learn what's going on" subtitle="Below are some of the happenings of the ward and ways to become involved." className="pt-10 sm:pt-14 lg:pt-20"/>
+          <SectionHeader title="Helpful Information" subtitle="Below are some good things to be aware of prior to attending camp." className="pt-10 sm:pt-14 lg:pt-14"/>
           <div className="grid grid-cols-1 gap-x-6 sm:grid-cols-2 lg:grid-cols-3 pt-5">
             {dataImageCards
               .filter((card) => !card.hidden)

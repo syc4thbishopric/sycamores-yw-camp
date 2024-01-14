@@ -40,10 +40,10 @@ const getColorStyle = {
 const Schedule = ({ date, times }: ISchedule) => {
   return (
     <>
-      <SectionHeader title={date.dateFormatted} />
+      {/* <SectionHeader title={date.dateFormatted} /> */}
       {times.map((time) => (
         <div key={time.time}>
-          <Divider className="mt-8 md:mt-12 lg:mt-14" />
+          {/* <Divider className="mt-8 md:mt-12 lg:mt-14" /> */}
           <div className="pt-8">
             <div className={`inline-flex items-center px-8 py-1 rounded-full text-lg font-semibold ${getColorStyle[time.color]}`}>{time.time}</div>
             <div className={`grid grid-cols-1 gap-x-6 sm:grid-cols-2 pt-5`}>
