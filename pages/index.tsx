@@ -25,6 +25,7 @@ import BannerCard, {IBannerCard} from "../components/modules/cards/BannerCard";
 import { useAddToHomescreenPrompt } from "../components/modules/add-to-homescreen/AddToHomescreen";
 import {config} from "../config";
 import PrimaryButton from "../components/elements/buttons/PrimaryButton"
+import Icon from "@/components/elements/icons/Icon"
 
 export const getServerSideProps = async ({ req, res }) => {
   setHttpHeaders(res)
@@ -83,6 +84,10 @@ function Home({announcements, dataCards}) {
       <Head>
         <title>Sycamores Stake Young Women Camp</title>
       </Head>
+      <PrimaryButton type="link" className="absolute top-2 md:top-5" link={{ url: "https://www.sycamoresstake.com/" }}>
+        <Icon name="chevron-left" className="h-5 w-5" />
+        <span className="mr-2 text-sm uppercase font-semibold">Back to Stake Site</span>
+      </PrimaryButton>
       <div className="pt-16">
         <HeroCard {...dataSundayMeeting} />
       </div>

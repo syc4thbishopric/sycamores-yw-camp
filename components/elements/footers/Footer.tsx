@@ -20,6 +20,14 @@ const Footer = () => {
             .
             <br />
             It is operated by members of the <span className="whitespace-nowrap">{config.wardName}</span>.
+            <br />
+            <a
+              href="https://www.sycamoresstake.com"
+              className="whitespace-nowrap text-primary-500 hover:text-primary-900"
+              rel="noreferrer"
+            >
+              Return to Stake Website
+            </a>
           </p>
         </div>
       </footer>
