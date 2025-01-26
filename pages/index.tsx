@@ -99,7 +99,7 @@ function Home({announcements, dataCards}) {
           )}
       </div> */}
       <div className="relative mb-3">
-          <SectionHeader title="Announcements" subtitle="Stay up to date on upcoming YW camp events" className="pt-10"/>
+          <SectionHeader title="Announcements" subtitle="Stay up to date on upcoming Youth Conference events" className="pt-10"/>
       </div>
       {dataBannerCards.length > 0 && (
         <div className="lg:grid gap-x-4 lg:grid-cols-2 lg:grid-rows-[auto_1fr] lg:items-start">
