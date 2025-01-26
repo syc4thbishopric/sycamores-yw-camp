@@ -9,7 +9,7 @@ function Welcome() {
   return (
     <>
       <Head>
-        <title>Sycamores Stake Young Women Camp- Welcome</title>
+        <title>Sycamores Stake Youth Conference- Welcome</title>
       </Head>
       <PageHeader title="Welcome" />
       <Layout>

@@ -82,7 +82,7 @@ function Home({announcements, dataCards}) {
   return (
     <Layout>
       <Head>
-        <title>Sycamores Stake Young Women Camp</title>
+        <title>Sycamores Stake Youth Conference</title>
       </Head>
       <PrimaryButton type="link" className="absolute top-2 md:top-5" link={{ url: "https://www.sycamoresstake.com/" }}>
         <Icon name="chevron-left" className="h-5 w-5" />

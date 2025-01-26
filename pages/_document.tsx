@@ -10,11 +10,11 @@ class MyDocument extends Document {
     return (
       <Html>
         <Head>
-          <meta name='application-name' content='Sycamores Stake Young Women Camp' />
+          <meta name='application-name' content='Sycamores Stake Youth Conference' />
           <meta name='apple-mobile-web-app-capable' content='yes' />
           <meta name='apple-mobile-web-app-status-bar-style' content='default' />
-          <meta name='apple-mobile-web-app-title' content='Sycamores Stake Young Women Camp' />
-          <meta name='description' content='Sycamores Stake Young Women Camp information App' />
+          <meta name='apple-mobile-web-app-title' content='Sycamores Stake Youth Conference' />
+          <meta name='description' content='Sycamores Stake Youth Conference information App' />
           <meta name='format-detection' content='telephone=no' />
           <meta name='mobile-web-app-capable' content='yes' />
           <meta name='msapplication-config' content='/icons/browserconfig.xml' />
